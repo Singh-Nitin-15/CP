@@ -1,0 +1,37 @@
+In <algortihm>
+
+1)next_permutation(arr.begin(), arr.end());
+it is used to lexicographically next permuation
+
+2) sort() ->	Sorts a container -> sort(v.begin(), v.end());
+
+3) reverse()	Reverses a container	reverse(v.begin(), v.end());
+
+4) prev_permutation()	Previous permutation	prev_permutation(v.begin(), v.end());
+
+5) count()	Counts occurrences of a value	count(v.begin(), v.end(), x);
+    syntax: vector<int> arr = {1, 2, 3, 2, 4, 2, 5};
+            int freq = count(arr.begin(), arr.end(), 2);
+
+6) find()	Finds an element, returns iterator	find(v.begin(), v.end(), x);
+   syntax:  vector<int> arr = {10, 20, 30, 40, 50};
+            auto idx = find(arr.begin(), arr.end(), 30);
+
+7) binary_search()	Checks if an element exists (sorted only)	binary_search(v.begin(), v.end(), x);
+    syntax: bool present = binary_search(v.begin(), v.end(), 30);
+
+8) max_element()	Iterator to max element	*max_element(v.begin(), v.end());
+
+9) min_element()	Iterator to min element	*min_element(v.begin(), v.end());
+
+10 accumulate()	Sum of all elements	accumulate(v.begin(), v.end(), 0); (Needs <numeric>)
+
+11 count() count the no of repetition of an element   count(v.begin(),v.end(),target);
+
+12) set_union()	 A ∪ B
+
+13) set_intersection()	A ∩ B
+
+14) set_difference()	 A - B
+
+15) set_symmetric_difference()	(A ∪ B) - (A ∩ B)
