@@ -1,0 +1,5 @@
+-->>  
+instead ceil(a/b) we can do (a+b-1)/b;
+it works faster but it is only for integers
+if you need to do operation floating type then use 
+ceil.

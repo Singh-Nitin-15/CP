@@ -1,0 +1,12 @@
+-->> Square root method
+This method is used to find factors efficiently
+
+The square root method to find factors of a number 𝑛
+n is an efficient technique that reduces the number of iterations needed.
+
+If 𝑑 is a divisor of n, then n/d is also a divisor of 𝑛
+So you only need to check up to sqrt(n), not all the way to 𝑛.
+
+📌 Steps:
+1) Loop from i = 1 to sqrt(n).
+2) if n%i == 0 then i is factor of n also n/i is a factor.
